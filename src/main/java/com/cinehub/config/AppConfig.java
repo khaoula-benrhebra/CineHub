@@ -1,8 +1,6 @@
 package com.cinehub.config;
 
 import org.springframework.context.annotation.*;
-
-
 import org.springframework.stereotype.Controller;
 
 @Configuration
@@ -13,6 +11,7 @@ import org.springframework.stereotype.Controller;
                 classes = Controller.class
         )
 )
+@Import(PersistenceConfig.class)
 public class AppConfig {
     // Configuration services, repositories, etc.
 }

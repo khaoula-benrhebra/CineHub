@@ -1,4 +1,3 @@
-// src/main/java/com/cinehub/mapper/CategoryMapper.java
 package com.cinehub.mapper;
 
 import com.cinehub.model.Category;
